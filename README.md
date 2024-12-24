@@ -57,6 +57,11 @@ Some examples to explain how to use the script:
 
 You can type `python nanomine.py -h` to see the script's options listed out for you if you forget.
 
-NOTE: the script does NOT take into account pickaxes with enchantments (e.g. Efficiency, Unbreaking), nor does it take into account pickaxes of multiple types (e.g. you have 3 iron and 4 stone pickaxes). For the sake of using this script, I recommend using unused and unenchanted stone or iron pickaxes, or any level of pick that you are willing to expend solely on mining cobblestone. 
+NOTE: the script does NOT take into account:
+- Pickaxes with enchantments (e.g. Efficiency, Unbreaking),
+- Pickaxes of multiple types (e.g. you have 3 iron and 4 stone pickaxes), or
+- Pickaxes with less than maximum durability.
+
+For the sake of using this script, I recommend bulk crafting unenchanted stone or iron pickaxes, or any level of pick that you are willing to expend solely on mining cobblestone. 
 
 
