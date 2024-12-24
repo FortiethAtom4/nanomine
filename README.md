@@ -43,7 +43,7 @@ NOTE: If you close this Command Prompt window and want to use the script again l
 
 ## USAGE
 
-Place the pickaxes you want to AFK mine with in your hotbar. The script can use up to a maximum of 9 pickaxes, one for each slot in the hotbar. Then run the code by typing:
+Place the pickaxes you want to AFK mine with in your hotbar. The script can use up to a maximum of 9 pickaxes, one for each slot in the hotbar. Then run the code with:
 
 `python nanomine.py [-s {1,2,3,4,5,6,7,8,9}] {wood,stone,iron,gold,diamond,netherite}`
 
