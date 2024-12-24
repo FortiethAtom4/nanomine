@@ -10,6 +10,7 @@ Be sure that the area you will be AFK mining in is free of hostile mobs.
 
 You will need Python 3 in order to run this script. [Get Python here](https://www.python.org/downloads/)
 - NOTE: Be sure to check the box which says "add to PATH".
+
 These instructions will use Git to clone the repository to your computer. [Get Git here](https://git-scm.com/downloads)
 
 1. Click the green Code button on this page and copy the given link. 
