@@ -8,9 +8,9 @@ Be sure that the area you will be AFK mining in is free of hostile mobs.
 
 ## CODE PREP
 
-You will need Python 3 in order to run this script. (Get Python here)[https://www.python.org/downloads/]. 
+You will need Python 3 in order to run this script. [Get Python here](https://www.python.org/downloads/)
 - NOTE: Be sure to check the box which says "add to PATH".
-These instructions will use Git to clone the repository to your computer. (Get Git here)[https://git-scm.com/downloads]
+These instructions will use Git to clone the repository to your computer. [Get Git here](https://git-scm.com/downloads)
 
 1. Click the green Code button on this page and copy the given link. 
 2. Open Command Prompt.
@@ -22,17 +22,19 @@ These instructions will use Git to clone the repository to your computer. (Get G
     - If you've done this correctly, if you type `dir` you should see a new folder called "nanomine."
 5. `cd` into the new folder.
 6. Type the following commands:
-    1. `python -m venv venv`
-    2. `cd venv/Scripts`
-    3. `activate`
-    4. `cd ../..`
-    5. `pip install -r requirements.txt`
+    ```
+    python -m venv venv
+    cd venv/Scripts
+    activate
+    cd ../..
+    pip install -r requirements.txt
+    ```
     
     These commands will create a local environment and install the script's dependencies. The installation should be quick and will not affect the rest of your computer. If you ever want to uninstall these dependencies, simply delete the folder called `venv`.
 
 The code is now ready to run.
 
-NOTE: If you close this Command Prompt window and want to use the script again later, you will need to type lines 2-4 of the above commands again in order to reactivate the environment.
+NOTE: If you close this Command Prompt window and want to use the script again later, you will need to `cd` back to this folder and type lines 2-4 of the above commands again in order to reactivate the environment.
 
 ## USAGE
 
