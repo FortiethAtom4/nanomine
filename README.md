@@ -6,7 +6,7 @@ Set up a simple cobblestone generator. Under the spot where the cobblestone bloc
 Be sure that the area you will be AFK mining in is free of hostile mobs. 
 [Simple cobblestone generator](https://minecraft.wiki/w/Tutorial:Cobblestone_farming). You do NOT need to make anything crazy complicated like the designs further down the page; it just needs to produce a block of cobblestone for you to mine with a hopper to collect it.
 
-You will also need to disable raw mouse input in-game, otherwise the mouse freaks out when the script starts. You can find this in Settings under Mouse Settings in Controls.
+You will also need to disable raw mouse input in-game, otherwise the mouse freaks out when the script starts. You can find this in Settings -> Controls -> Mouse Settings.
 
 ## CODE PREP
 
