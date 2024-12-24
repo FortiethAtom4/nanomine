@@ -2,7 +2,7 @@ import pyautogui, time, argparse
 
 parser = argparse.ArgumentParser("nanomine")
 parser.add_argument("pickaxe",choices=["wood","stone","iron","gold","diamond","netherite"],help="Pickaxe type")
-parser.add_argument("-s","--slots",choices=["1","2","3","4","5","6","7","8","9"],help="number of picks available")
+parser.add_argument("-s","--slots",choices=[f"{i}" for i in range(1,10)],help="number of picks available")
 args = parser.parse_args()
 # keep track of picks
 pick_durability: int = 0
@@ -30,8 +30,8 @@ match args.pickaxe:
 # slot 
 slots: int = int(args.slots) if args.slots != None else 1
 
-print("Script started, waiting 3 seconds to allow for prep...")
-time.sleep(3)
+print("Script started, waiting 5 seconds to allow for prep...")
+time.sleep(5)
 # conditions: player looking at cobblestone in generator, pickaxe in slots 1-9 (unless otherwise specified)
 for i in range (slots):
     print(f"Mining with slot {i}")
