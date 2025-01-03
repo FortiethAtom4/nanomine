@@ -20,15 +20,16 @@ except ValueError:
 timer = float(args.timer)
 
 def track_time(delay):
+    global hits, hit_ready, timer, time_up
     print(f"Starting nanohit.py with hit delay {delay}s...")
+    if timer > 0:
+        print(f"Timer set to {timer} minutes.")
     print("Hits will begin in 5 seconds to allow for prep. Press Ctrl+C at any time to quit.")
 
     start_time: datetime.datetime = datetime.datetime.now()
-    global hits, hit_ready, timer, time_up
+    
     num_intervals = 0
     while True:
-
-        # if delay has passed, ready to hit
         cur_time = datetime.datetime.now()
         time_elapsed = (cur_time-start_time).total_seconds()
 
